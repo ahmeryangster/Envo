@@ -1,0 +1,89 @@
+.main{
+    width: 100%;
+    height: 626px;
+    background-color:#fffbfa;
+}
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-div{
+    float: left;
+}
+.sub-div1{
+    width: 50%;
+    float: left;
+}
+.sub-div2{
+    width: 50%;
+    float: left;
+    
+    margin-top: 92px;
+}
+p{
+    color: black;
+}
+img{
+    margin-left: 10%;
+    margin-top: 150px;
+}
+.bottom{
+    margin-top: -106px;
+border-top: solid 1px rgb(156, 149, 149);
+}
+a{
+text-decoration:none;
+color: black;
+
+}
+hr{
+    color: rgb(156, 149, 149);
+}
+
+.sub-div2 p{
+    color: black;
+}
+
+.bottom p{
+    color: black;
+    text-align: center;
+}
+
+@media (min-width:320px) and (max-width:950px){
+
+img{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+.sub-div1{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoid{
+    width: 200px;
+    margin-left: -5px;
+    margin-top: 45px;
+}
+h1{
+    color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 23px;
+}
+.sub-div2{
+    margin-top: 22px;
+    float: none;
+    margin-left: 89px;
+    text-align: center;
+}
+.bottom{
+    margin-top: -39px;
+}
+hr{
+    display: none;
+}
